@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "danny-demo/upstream-config": "*"
+    "pantheon-upstreams/upstream-config": "*"
   },
   "config": {
     "vendor-dir": "vendor",
