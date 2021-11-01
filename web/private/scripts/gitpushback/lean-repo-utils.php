@@ -221,6 +221,8 @@ function push_back($fullRepository, $workDir, $upstreamRepoWithCredentials, $bui
     // Make sure that HEAD changed after 'git apply'
     $appliedCommit = exec("git -C $canonicalRepository rev-parse HEAD");
     print("<pre>".print_r($appliedCommit,true)."</pre");
+    print("<pre>".print_r($remoteHead,true)."</pre");
+
     // Seatbelts: this generally should not happen. If it does, we will presume
     // it is not an error; this situation might arise if someone commits only
     // changes to build result files from dashboard.
