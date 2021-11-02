@@ -14,7 +14,8 @@
     }
   ],
   "require": {
-    "pantheon-upstreams/upstream-config": "*"
+    "pantheon-upstreams/upstream-config": "*",
+    "wpackagist-plugin/polls-widget": "^1.6"
   },
   "config": {
     "vendor-dir": "vendor",

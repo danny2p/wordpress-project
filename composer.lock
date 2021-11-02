@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef5474ac762496228c1d3a18c79d248a",
+    "content-hash": "5ce43dccb01d504941d3b7640c687fa8",
     "packages": [
         {
             "name": "composer/installers",
@@ -273,7 +273,7 @@
             "dist": {
                 "type": "path",
                 "url": "upstream-config",
-                "reference": "18e9e7bfa25742bbbf4feedfac49fff9756f1d70"
+                "reference": "65dd3d3c52e5fa3afdeb69280ec666874bf2361d"
             },
             "require": {
                 "composer/installers": "^1.3.0",
@@ -283,10 +283,12 @@
                 "roots/wp-password-bcrypt": "^1.0.0",
                 "vlucas/phpdotenv": "^3.1.0",
                 "wp-coding-standards/wpcs": "^1.2.1",
+                "wpackagist-plugin/faq-block": "^1.0",
                 "wpackagist-plugin/lh-hsts": "^1.24",
                 "wpackagist-plugin/pantheon-advanced-page-cache": ">=0.3.0",
                 "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
                 "wpackagist-theme/neve": "^3.0",
+                "wpackagist-theme/oceanwp": "^3.0",
                 "wpackagist-theme/twentynineteen": "^1.2",
                 "wpackagist-theme/twentytwenty": "^1.8"
             },
@@ -713,6 +715,24 @@
             "time": "2018-12-18T09:43:51+00:00"
         },
         {
+            "name": "wpackagist-plugin/faq-block",
+            "version": "1.0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/faq-block/",
+                "reference": "tags/1.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/faq-block.1.0.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/faq-block/"
+        },
+        {
             "name": "wpackagist-plugin/lh-hsts",
             "version": "1.25",
             "source": {
@@ -749,6 +769,24 @@
             "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
         },
         {
+            "name": "wpackagist-plugin/polls-widget",
+            "version": "1.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/polls-widget/",
+                "reference": "tags/1.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/polls-widget.1.6.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/polls-widget/"
+        },
+        {
             "name": "wpackagist-plugin/wp-native-php-sessions",
             "version": "1.2.4",
             "source": {
@@ -783,6 +821,24 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/neve/"
+        },
+        {
+            "name": "wpackagist-theme/oceanwp",
+            "version": "3.0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/oceanwp/",
+                "reference": "3.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/oceanwp.3.0.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/oceanwp/"
         },
         {
             "name": "wpackagist-theme/twentynineteen",
@@ -832,5 +888,5 @@
     "platform-overrides": {
         "php": "7.2"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
