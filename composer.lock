@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ce43dccb01d504941d3b7640c687fa8",
+    "content-hash": "c67253b46cdb4a0acbbf6b1c5e5748d9",
     "packages": [
         {
             "name": "composer/installers",
@@ -785,6 +785,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/polls-widget/"
+        },
+        {
+            "name": "wpackagist-plugin/tinymce-advanced",
+            "version": "5.6.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
+                "reference": "tags/5.6.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.5.6.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",

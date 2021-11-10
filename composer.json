@@ -15,7 +15,8 @@
   ],
   "require": {
     "pantheon-upstreams/upstream-config": "*",
-    "wpackagist-plugin/polls-widget": "^1.6"
+    "wpackagist-plugin/polls-widget": "^1.6",
+    "wpackagist-plugin/tinymce-advanced": "5.6.0"
   },
   "config": {
     "vendor-dir": "vendor",
